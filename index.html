@@ -7,91 +7,109 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Affordable and Professional web, application, and graphic design and development">
     <meta name="keywords" content="web design, web development, mobile application development, apps, affordable web design, professional development, graphic arts, graphic design">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="/assets/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+
     <title>MTG Digital</title>
 </head>
 
 <body>
-    <div id="page-container">
-        <div id="content-wrap">
-            <header>
-                <div class="container">
-                    <div id="branding">
-                        <h1><span class="highlight">MTG</span> Business Marketing Services</h1>
+    <div class="wrapper">
+        <div id="page-container">
+            <div id="content-wrap">
+                <header>
+                    <div class="container">
+                        <div id="branding">
+                            <h1><span class="highlight">MTG</span> Business Marketing Services</h1>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li class="current">
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <!-- <li>
+                                    <a href="about.html">About</a>
+                                </li> -->
+                                <li>
+                                    <a href="portfolio.html">Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
-                    <nav>
-                        <ul>
-                            <li class="current">
-                                <a href="index.html">Home</a>
-                            </li>
-                            <li>
-                                <a href="about.html">About</a>
-                            </li>
-                            <li>
-                                <a href="Portfolio.html">Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="Contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
+                </header>
 
-            <section id="showcase">
-                <div class="container">
-                    <h1>Full Stack Web Development<br>Mobile Application Development<br> Graphic Arts & Design</h1>
-                    <p>We offer a complete marketing service solution for your business.<br> Everything from Graphic Design to web and mobile development, our creatives will<br> beautify your business's digital footprint and take your branding to the next
+                <section id="showcase">
+                    <div class="container">
+                        <h1>Full Stack Web Development<br>Mobile Application Development<br> Graphic Arts & Design</h1>
+                        <p><strong>We offer a complete marketing service solution for your business.<br> Everything from Graphic Design to web and mobile development, our creatives will<br> beautify your business's digital footprint and take your branding to the next
                         level.
-                    </p>
-                </div>
-            </section>
-
-            <section id="newsletter">
-                <div class="container">
-                    <h1>Keep up with the latest</h1>
-                    <form>
-                        <input type="email" placeholder="Enter email...">
-                        <button type="submit" class="button_1">Subscribe</button>
-                    </form>
-                </div>
-            </section>
-
-            <section id="boxes">
-                <div class="container">
-
-                    <div class="box">
-                        <img src="assets/img/webdevicon.png" alt="web design icon" width="180">
-                        <h3>Web Development</h3>
-                        <p>Do people tell you how much they enjoy your website? Ours do. SEO-optimized content is one strategy to get you the search attention you deserve. MTG creates responsive websites, for all devices, with visual and search engine optimization.</p>
+                    </p></strong>
                     </div>
+                </section>
 
-
-                    <div class="box">
-                        <img src="assets/img/appdevicon.png" alt="application development icon" width="150">
-                        <h3>Mobile App Development</h3>
-                        <p>Do you need an app for your customers? Our application development service will create engaging, full service mobile applications focused using the latest and emerging technologies for every device known to man.</p>
+                <section id="newsletter">
+                    <div class="container">
+                        <h1>Keep up with the latest</h1>
+                        <form>
+                            <input type="email" placeholder="Enter email...">
+                            <button type="submit" class="button_1">Subscribe</button>
+                        </form>
                     </div>
+                </section>
 
+                <section id="boxes clearfix">
 
-                    <div class="box">
-                        <img src="assets/img/graphicarts.png" alt="graphic arts icon" width="150">
-                        <h3>Graphic Art Design</h3>
-                        <p>There is an “art” in selling a product or service. MTG can help your business interpret that vision and add value to your brand with services from digital arts, to promotional items.</p>
-                    </div>
+                    <div class="card-deck">
+
+                        <div class="card p-3 mb-2 bg-transparent text-dark border-0" style="max-width: 25%">
+                            <img src="assets/img/webdevicon.png" class="card-img-top" alt="Web Development">
+                            <div class="card-body">
+                                <h5 class="card-title">Web Development</h5>
+                                <p class="card-text">Do people tell you how much they enjoy your website? Ours do. SEO-optimized content is one strategy to get you the search attention you deserve. MTG creates responsive websites, for all devices, with visual and search engine
+                                    optimization.
+                                </p>
+                                <a href="portfolio.html">
+                                    <p class="card-text"><small class="text-muted">Check out our portfolio</small></p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card p-3 mb-2 bg-transparent text-dark border-0" style="max-width: 25%">
+                            <img src="assets/img/appdevicon.png" class="card-img-top" alt="Mobile Application Development">
+                            <div class="card-body">
+                                <h5 class="card-title">App Development</h5>
+                                <p class="card-text">Do you need an app for your customers? Our application development service will create engaging, full service mobile applications focused using the latest and emerging technologies for every device known to man.</p>
+                                <a href="portfolio.html">
+                                    <p class="card-text"><small class="text-muted">Check out our portfolio</small></p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card p-3 mb-2 bg-transparent text-dark border-0" style="max-width: 25%">
+                            <img src="/assets/img/graphicarts.png" class="card-img-top" alt="Graphic Arts and Design">
+                            <div class="card-body">
+                                <h5 class="card-title">Graphic Services</h5>
+                                <p class="card-text">There is an “art” in selling a product or service. MTG can help your business interpret that vision and add value to your brand with services from digital arts, to promotional items.</p>
+                                <a href="portfolio.html">
+                                    <p class="card-text"><small class="text-muted">Check out our portfolio</small></p>
+                                </a>
+                            </div>
+                        </div>
+                </section>
 
                 </div>
-            </section>
 
+                <footer id="footer">
+                    <p>MTG Enterprises, LLC &copy; 2019</p>
+                </footer>
+            </div>
         </div>
-
-        <footer id="footer">
-            <p>MTG Enterprises, LLC &copy; 2019</p>
-        </footer>
     </div>
-
 </body>
 
 </html

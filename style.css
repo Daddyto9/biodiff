@@ -1,190 +1,191 @@
-body {
-    /* font: 15px/1.5 'Roboto', Ariel, Helvetica, sans-serif; */
-    font: 15px/1.5 Helvetica;
-    padding: 0;
-    margin: 0;
-    background-color: #f4f4f4;
-    /* background-color: #afc7d6; */
-}
-
-
-/* Global */
-
-#page-container {
-    position: relative;
-    min-height: 100vh;
-}
-
-#content-wrap {
-    padding-bottom: 2.5rem;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-    box-sizing: border-box;
-    display: flex;
-}
-
-ul {
-    margin: 5px 0 0 0;
-    padding: 0;
-}
-
-.button_1 {
-    height: 38;
-    background: #729eb4;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #fff;
-}
-
-
-/* Header */
-
-header {
-    background: #1c2e3f;
-    color: white;
-    padding-top: 10px;
-    min-height: 60px;
-    border-bottom: #ffff00 5px solid;
-}
-
-header a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: .8rem;
-}
-
-header li {
-    display: inline;
-    padding: 0 10px;
-}
-
-header #branding {
-    float: left;
-}
-
-header #branding h1 {
-    margin: 0;
-    padding: 2px;
-}
-
-header nav {
-    float: right;
-    margin-top: 10px;
-}
-
-header .highlight,
-header .current a {
-    color: #ffff00;
-    font-weight: bold;
-}
-
-header a:hover {
-    color: #ffff00;
-    font-weight: bold;
-}
-
-
-/* showcase */
-
-#showcase {
-    min-height: 400px;
-    background-image: url(../img/portbghalf.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: white;
-}
-
-#showcase h1 {
-    margin-top: 30px;
-    font-size: 50px;
-    margin-bottom: 20px;
-}
-
-#showcase p {
-    font-size: 20px;
-}
-
-
-/* newletter */
-
-#newsletter {
-    background: #1c2e3f;
-    color: white;
-    border-top: #ffff00 5px solid;
-    border-bottom: #ffff00 5px solid;
-}
-
-#newsletter h1 {
-    float: left;
-}
-
-#newsletter form {
-    float: right;
-    margin-top: 15px;
-}
-
-#newsletter input[type="email"] {
-    padding: 4px;
-    height: 30px;
-    width: 250px;
-    border: none;
-    margin-top: 1px;
-}
-
-.button_1 {
-    height: 38px;
-    background: #729eb4;
-    color: white;
-    border: none;
-    padding: 1px 7px 2px;
-    margin-left: 5px;
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-
-/* .wrap {
-    overflow: hidden;
-} */
-
-
-/* Boxes */
-
-#boxes {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#boxes .box {
-    float: left;
-    text-align: center;
-    width: 28%;
-    padding: 20px;
-    flex: 1;
-}
-
-
-/* Footer */
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
-    background: #1c2e3f;
-    border-top: #ffff00 5px solid;
-    min-height: 60px;
-    color: #fff;
-    text-align: center;
-    font-size: 18px;
-}
+                                        body {
+                                        /* font: 15px/1.5 'Roboto', Ariel, Helvetica, sans-serif; */
+                                        font: 15px/1.5 Helvetica;
+                                        padding: 0;
+                                        margin: 0;
+                                        background-color: #f4f4f4;
+                                        /* background-color: #afc7d6; */
+                                    }
+                                    /* Global */
+                                    
+                                    #page-container {
+                                        position: relative;
+                                        min-height: 100vh;
+                                        /* padding-bottom: 2.5rem; */
+                                    }
+                                    
+                                    #content-wrap {
+                                        padding-bottom: 2.5rem;
+                                    }
+                                    
+                                    .container {
+                                        width: 80%;
+                                        margin: auto;
+                                        overflow: hidden;
+                                    }
+                                    
+                                    ul {
+                                        margin: 5px 0 0 0;
+                                        padding: 0;
+                                    }
+                                    
+                                    .button_1 {
+                                        height: 38;
+                                        background: #729eb4;
+                                        padding-left: 20px;
+                                        padding-right: 20px;
+                                        color: #fff;
+                                    }
+                                    /* Header */
+                                    
+                                    header {
+                                        background: #1c2e3f;
+                                        color: white;
+                                        padding-top: 10px;
+                                        min-height: 60px;
+                                        border-bottom: #ffff00 5px solid;
+                                    }
+                                    
+                                    header a {
+                                        color: #fff;
+                                        text-decoration: none;
+                                        text-transform: uppercase;
+                                        font-size: .8rem;
+                                    }
+                                    
+                                    header li {
+                                        display: inline;
+                                        padding: 0 10px;
+                                    }
+                                    
+                                    header #branding {
+                                        float: left;
+                                    }
+                                    
+                                    header #branding h1 {
+                                        margin: 0;
+                                        padding: 2px;
+                                    }
+                                    
+                                    header nav {
+                                        float: right;
+                                        margin-top: 10px;
+                                    }
+                                    
+                                    header .highlight,
+                                    header .current a {
+                                        color: #ffff00;
+                                        font-weight: bold;
+                                    }
+                                    
+                                    header a:hover {
+                                        color: #ffff00;
+                                        font-weight: bold;
+                                    }
+                                    /* showcase */
+                                    
+                                    #showcase {
+                                        min-height: 400px;
+                                        background-image: url(../img/portbghalf.jpg);
+                                        background-size: cover;
+                                        background-repeat: no-repeat;
+                                        text-align: center;
+                                        color: white;
+                                    }
+                                    
+                                    #showcase h1 {
+                                        margin-top: 30px;
+                                        font-size: 50px;
+                                        margin-bottom: 20px;
+                                    }
+                                    
+                                    #showcase p {
+                                        font-size: 20px;
+                                    }
+                                    /* newletter */
+                                    
+                                    #newsletter {
+                                        background: #1c2e3f;
+                                        color: white;
+                                        border-top: #ffff00 5px solid;
+                                        border-bottom: #ffff00 5px solid;
+                                    }
+                                    
+                                    #newsletter h1 {
+                                        float: left;
+                                    }
+                                    
+                                    #newsletter form {
+                                        float: right;
+                                        margin-top: 15px;
+                                    }
+                                    
+                                    #newsletter input[type="email"] {
+                                        padding: 4px;
+                                        height: 30px;
+                                        width: 250px;
+                                        border: none;
+                                        margin-top: 1px;
+                                    }
+                                    
+                                    .button_1 {
+                                        height: 38px;
+                                        background: #729eb4;
+                                        color: white;
+                                        border: none;
+                                        padding: 1px 7px 2px;
+                                        margin-left: 5px;
+                                    }
+                                    /* Boxes */
+                                    
+                                    .card-deck {
+                                        width: 80%;
+                                        margin: auto;
+                                    }
+                                    
+                                    .card {
+                                        width: 30%;
+                                    }
+                                    
+                                    #boxes {
+                                        width: 80%;
+                                        margin: auto;
+                                        margin-top: 20px;
+                                        margin-bottom: 40px;
+                                        background-color: #fff;
+                                    }
+                                    
+                                    #boxes .box {
+                                        float: left;
+                                        text-align: left;
+                                        width: 30%;
+                                        padding: 10px !important;
+                                    }
+                                    
+                                    #boxes .box img {
+                                        width: 90px;
+                                    }
+                                    /* Footer */
+                                    
+                                    footer {
+                                        position: absolute;
+                                        bottom: 0;
+                                        width: 100%;
+                                        height: 2.5rem;
+                                        background: #1c2e3f;
+                                        border-top: #ffff00 5px solid;
+                                        min-height: 60px;
+                                        color: #fff;
+                                        text-align: center;
+                                        font-size: 18px;
+                                    }
+                                    /* media queries */
+                                    
+                                    @media(max-width: 768px) {
+                                        header #masthead,
+                                        header nav,
+                                        header nav li {
+                                            float: none;
+                                            text-align: center;
+                                            width: 100%;
+                                        }
