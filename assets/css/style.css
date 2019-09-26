@@ -170,9 +170,15 @@ header a:hover {
 
 /* Boxes */
 
+.card-deck {
+    display: flex;
+    justify-content: space-between;
+  }
+
 #boxes {
     margin-top: 20px;
     margin-bottom: 20px;
+    
 }
 
 #boxes .box {
